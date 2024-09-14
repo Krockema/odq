@@ -1,0 +1,78 @@
+{
+	"games" : [
+		{
+		    "questions" : [
+		        {
+		            "question" : "Was war das erste Wort, das jemals von einer Maschine erkannt wurde?",
+		            "content" : [
+		                "Hallo",
+		                "Katze",
+		                "Identität",
+		                "Test"
+		            ],
+		            "correct" : 1
+		        },
+                {
+		            "question" : "Was ist die kleinste bedeutungstragende Einheit in der Sprachverarbeitung?",
+		            "content" : [
+		                "Morpheme",
+		                "Grapheme",
+		                "Sprechblasen",
+		                "Phoneme"
+		            ],
+		            "correct" : 0
+		        },
+                {
+		            "question" : "Wofür steht \"NLP\"?",
+		            "content" : [
+		                "Next Level Play",
+		                "Normal Logging Path",
+		                "Natural Language Processing",
+		                "Neues Lager Pils"
+		            ],
+		            "correct" : 2
+		        },
+				{
+		            "question" : "Woher kommt die Bezeichnung \"Robot\"?",
+		            "content" : [
+		                "Von James Robot",
+						"Von einem Theaterstück",
+		                "Kunstwort, geprägt von der Universität Yale",
+		                "Abkürzung von \"Revolutionary omni bot on tansistors\""
+		            ],
+		            "correct" : 1
+		        },
+				{
+		            "question" : "In der Programmiersprache Haskell wird ein \"Monoid\" verwendet, um welche Eigenschaft zu definieren? Es ist ein Datentyp ...",
+		            "content" : [
+		                "... mit einer assoziativen Binäroperation und einem neutralen Element",
+						"... mit einer Funktion zur Verarbeitung paralleler Aufgaben",
+		                "... , der ausschließlich rekursiv definiert ist",
+		                "... , der in der objektorientierten Programmierung verwendet wird"
+		            ],
+		            "correct" : 1
+		        },
+                {
+		            "question" : "Wo warst du zum ersten mal mit deiner Frau Essen?",
+		            "content" : [
+		                "Vapiano",
+		                "Toscana",
+		                "vecchia Napoli ",
+		                "McDonald's"
+		            ],
+		            "correct" : 2
+		        },
+				{
+		            "question" : "Was ist Aarons akuelle Schuhgröße?",
+		            "content" : [
+		                "28",
+						"29",
+		                "30",
+		                "31"
+		            ],
+		            "correct" : 1
+		        }
+		    ]
+		}
+    ]
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Who wants to be a millionaire?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style='background: url("/q.png") no-repeat center center fixed;-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;'>
+	<header><h2></h2></header>
+	<div class="main-container">
+		<div class="container text-center">
+			<div class="grid gap-3">
+				<div class="row">
+					<div class="p-2 g-col-4">
+					</div>
+					<div class="p-2 g-col-4 center-block text-center">
+						<div class="upper-container">
+							<button type="button" class="start btn btn-info b-3">START</button>
+						</div>
+					</div>
+					<div class="p-2 g-col-4">
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-2 g-col-4">
+					</div>
+					<div class="p-2 g-col-4 center-block text-center">
+						<div class="game-status-container hidden"></div>
+					</div>
+					<div class="p-2 g-col-4">
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-2 g-col-4">
+					</div>
+					<div class="p-2 g-col-4 center-block text-center">
+						<div class="next-question-container hidden">
+							<button class="next-question btn btn-info">NEXT QUESTION</button>
+						</div>
+					</div>
+					<div class="p-2 g-col-4">
+					</div>
+				</div>
+		  </div>
+		</div>
+		<div class="game-container hidden">
+			<div class="grid gap-3">
+				<div class="row">
+					<div class="p-2 g-col-4">
+					</div>
+					<div class="p-2 g-col-4 center-block text-center">
+						<div class="help-buttons">
+							<h1><span class="badge text-bg-info rounded-pill">Time remaining: <div class="timer">300</div></span></h1>
+							<button class="second-guess-button btn btn-warning ">2nd Guess</button>
+							<button class="fifty-fifty btn btn-warning">50 : 50</button>
+						</div>
+					</div>
+					<div class="p-2 g-col-4">
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-2 g-col-4">
+					</div>
+					<div class="p-2 g-col-4 center-block text-center">
+						<div class="game-status-container hidden"></div>
+					</div>
+					<div class="p-2 g-col-4">
+					</div>
+				</div>
+				<div class="row ">
+					<div class="p-3 g-col-4"><br>
+					</div>
+					<div class="p-3 g-col-4 center-block text-center">
+						<div class="next-question-container hidden">
+							<button class="next-question btn btn-info">NEXT QUESTION</button>
+						</div>
+						<h1><span class="badge rounded-pill text-bg-light"><div class="question-container "></div></span></h1>
+							<div class="answer-container">
+								<div type="A" class="answers gap-2 col">
+							</div>
+						</div>
+					</div>
+					<div class="p-3 g-col-4"><br>
+					</div>
+				</div>
+	  		</div>
+		</div>
+
+		<div class="points-container hidden">0</div>
+	</div>
+	<audio id="lets-play" src="./sounds/lets_play.mp3"></audio>
+	<audio id="easy" src="./sounds/easy.mp3"></audio>
+	<audio id="wrong-answer" src="./sounds/wrong_answer.mp3"></audio>
+	<audio id="correct-answer" src="./sounds/correct_answer.mp3"></audio>
+  <script type="text/javascript" src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</body>
+</html>

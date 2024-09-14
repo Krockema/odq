@@ -1,0 +1,15 @@
+* {
+  font-family: Lato;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.answers {
+
+}
+
+li {
+  cursor: pointer;
+}
