@@ -21,6 +21,7 @@ const correctAnswerAudio = document.getElementById("correct-answer");
 // let gameState = false;
 let gameOn = false;
 let timesToGuess = 1;
+let numberOfQUestions = 7;
 let correctAnswer;
 let questionList;
 let listOfAnswers;
@@ -93,7 +94,7 @@ const stopTimerMusic = () => {
 };
 const resetPoints = () => {
   points = 0;
-  pointsContainer.textContent = `${points} / 12`;
+  pointsContainer.textContent = `${points} / 10`;
 };
 const gameOver = () => {
   gameOn = false;
@@ -109,7 +110,7 @@ const gameOver = () => {
 };
 const correctAnswerFunc = () => {
   points += 1;
-  if (points < 2) {
+  if (points < numberOfQUestions) {
     stopTimerMusic();
     correctAnswerAudio.play();
     correctAnswerAudio.volume = 0.3;
@@ -118,7 +119,7 @@ const correctAnswerFunc = () => {
     gameContainer.classList.add("hidden");
     gameStatusContainer.textContent = "CORRECT";
     gameStatusContainer.className = "alert alert-success"
-    pointsContainer.textContent = `${points} / 12`;
+    pointsContainer.textContent = `${points} / 10`;
   } else {
     stopTimerMusic();
     correctAnswerAudio.play();
@@ -129,7 +130,7 @@ const correctAnswerFunc = () => {
     gameStatusContainer.classList.add("alert-success")
     gameStatusContainer.textContent =
       "CONGRATULATIONS! You ARE a Doctor!";
-    pointsContainer.textContent = `${points} / 12`;
+    pointsContainer.textContent = `${points} / 10`;
   }
 };
 const nextQuestionFunc = () => {
@@ -152,7 +153,7 @@ const nextQuestionFunc = () => {
     data["games"][randomGameNum]["questions"][randomQuestionNum]["content"];
 
   questionList.forEach((item, index) => {
-    answers += `<button type="button" class="btn btn btn-outline-info btn-lg col-5" style="margin: 10px; background='lightblue'" id="${index}">${item}</button>`;
+    answers += `<button type="button" class="btn btn btn-question btn-lg col-5" style="margin: 10px;" id="${index}">${item}</button>`;
   });
 
   questionContainer.textContent =
