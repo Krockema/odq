@@ -66,11 +66,21 @@
 		            "question" : "Was ist Aarons akuelle Schuhgröße?",
 		            "content" : [
 		                "28",
-						"29",
+				"29",
 		                "30",
 		                "31"
 		            ],
 		            "correct" : 1
+		        },
+				{
+		            "question" : "Wie viele Inhaltsstoffe sind laut deutschem Reinheitsgebot für die Bierherstellung erlaubt?",
+		            "content" : [
+		                "Zwei",
+				"Drei",
+		                "Vier",
+		                "Fünf"
+		            ],
+		            "correct" : 2
 		        }
 		    ]
 		}
