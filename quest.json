@@ -50,14 +50,14 @@
 		                "... , der ausschließlich rekursiv definiert ist",
 		                "... , der in der objektorientierten Programmierung verwendet wird"
 		            ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
                 {
 		            "question" : "Wo warst du zum ersten mal mit deiner Frau Essen?",
 		            "content" : [
 		                "Vapiano",
-		                "Toscana",
-		                "vecchia Napoli ",
+		                "Toskana",
+		                "Vecchia Napoli",
 		                "McDonald's"
 		            ],
 		            "correct" : 2
@@ -66,7 +66,7 @@
 		            "question" : "Was ist Aarons akuelle Schuhgröße?",
 		            "content" : [
 		                "28",
-				"29",
+						"29",
 		                "30",
 		                "31"
 		            ],
@@ -76,9 +76,29 @@
 		            "question" : "Wie viele Inhaltsstoffe sind laut deutschem Reinheitsgebot für die Bierherstellung erlaubt?",
 		            "content" : [
 		                "Zwei",
-				"Drei",
+						"Drei",
 		                "Vier",
 		                "Fünf"
+		            ],
+		            "correct" : 2
+		        },
+				{
+		            "question" : "Welches der folgenden Sortierverfahren hat im schlimmsten Fall eine Zeitkomplexität von O(n^2)?",
+		            "content" : [
+		                "Quicksort",
+						"Heapsort",
+		                "Mergesort",
+		                "Bubblesort"
+		            ],
+		            "correct" : 3
+		        },
+				{
+		            "question" : "Wer gilt als der „Vater des Computers“?",
+		            "content" : [
+		                "Alan Turing",
+						"Tim Berners-Lee",
+		                "Charles Babbage",
+		                "Steve Jobs"
 		            ],
 		            "correct" : 2
 		        }

@@ -21,7 +21,7 @@ const correctAnswerAudio = document.getElementById("correct-answer");
 // let gameState = false;
 let gameOn = false;
 let timesToGuess = 1;
-let numberOfQUestions = 7;
+let numberOfQUestions = 10;
 let correctAnswer;
 let questionList;
 let listOfAnswers;
@@ -43,7 +43,7 @@ const dataLoad = async () => {
 };
 const randomQuestionGenerator = () => {
   randomGameNum = randomNumHelperFunc(1);
-  randomQuestionNum = randomNumHelperFunc(2);
+  randomQuestionNum = randomNumHelperFunc(numberOfQUestions);
 
   if (questionsAsked.findIndex(item => item[randomGameNum] === randomQuestionNum) === -1) {
     currentQuestion[randomGameNum] = randomQuestionNum;
